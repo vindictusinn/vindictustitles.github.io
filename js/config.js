@@ -9,11 +9,11 @@ ItemApp.config(['$locationProvider', '$routeProvider', function ($locationProvid
 			'<th>Title</th><th>Description</th><th>Obtain</th><th>STR</th><th>WIL</th><th>AGI</th><th>INT</th><th>HP</th>'+
 		'</thead>'+
 			'<tbody>'+
-				'<tr ng-repeat="item in ItemVariable"><td>{{item.Title}}</td><td>{item.Desc}}</td><td>{item.Obtain}}</td><td>{item.STR}}</td><td>{item.WIL}}</td><td>{item.AGI}}</td><td>{item.INT}}</td><td>{item.HP}}</td></tr>'+
+				'<tr ng-repeat="item in ItemVariable"><td>{{item.Title}}</td><td>{{item.Desc}}</td><td>{{item.Obtain}}</td><td>STR +{{item.STR}}</td><td>WIL +{{item.WIL}}</td><td>AGI +{{item.AGI}}</td><td>INT +{{item.INT}}</td><td>HP +{{item.HP}}</td></tr>'+
 			'</tbody>'+
 		'</table>',
     controller: 'ListController'
-  '}).
+  }).
   when('/item/:ItemID/', {
     templateUrl: 'templates/stage-detail.html',
     controller: 'DetailsController'
