@@ -7,7 +7,32 @@ ItemControllers.controller("ListController", ['$scope','$http',
 				$scope.ItemVariable = data;
 
 				setTimeout(function(){
+					$('.str').each(function(){
+						STR = $(this).html()
+						if (STR === 'STR +'){$(this).html('')}
+					})
+					$('.wil').each(function(){
+						WIL = $(this).html()
+						if (WIL === 'WIL +'){$(this).html('')}
+					})
+					$('.agi').each(function(){
+						AGI = $(this).html()
+						if (AGI === 'AGI +'){$(this).html('')}
+					})
+					$('.int').each(function(){
+						INT = $(this).html()
+						if (INT === 'INT +'){$(this).html('')}
+					})
+					$('.hp').each(function(){
+						HP = $(this).html()
+						if (HP === 'HP +'){$(this).html('')}
+					})
 					
+					$(document).ready(function() {
+						$('#titles').DataTable({
+							"lengthMenu": [[10, 50, 100, 300, -1], [10, 50, 100, 300, "All"]]
+						});
+					} );
 
 }, 200);
 			}); 
