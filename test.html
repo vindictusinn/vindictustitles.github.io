@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="ItemApp">
 
   <head>
 
@@ -10,12 +10,21 @@
 
     <title>All Titles - VindictusInn DB</title>
 
+	<link rel="stylesheet" href="css/bootstrap4.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- Bootstrap core CSS -->
-    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/bootstrap3.css">
+	
     <!-- Custom styles for this template -->
     <link href="css/half-slider.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
+	<script type="text/javascript" src="https://raw.githubusercontent.com/HubSpot/tether/master/dist/js/tether.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular.min.js"></script><!--Angular-->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
+
+	<script type="text/javascript" src="js/config.js"></script>
+	<script type="text/javascript" src="js/controller.js"></script>
   </head>
 
   <body>
@@ -31,87 +40,118 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">NavBar</a>
+			<img src="img/icon.png" class="img-fluid icon">
+            <a class="navbar-brand" href="#"> VindictusInn</a>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="https://github.com/fontenele/bootstrap-navbar-dropdowns" target="_blank">GitHub Project</a></li>
+                <li><a href="https://discord.gg/sfvwuX9" target="_blank">Discord Server</a></li>
             </ul>
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
                 <li>
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu 1 <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Battles</a>
                     <ul class="dropdown-menu multi-level">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">One more separated link</a></li>
                         <li class="dropdown-submenu">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Colhen</a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown</a>
-                                    <ul class="dropdown-menu">
-                                        <li class="dropdown-submenu">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown</a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#">Action</a></li>
-                                                <li><a href="#">Another action</a></li>
-                                                <li><a href="#">Something else here</a></li>
-                                                <li class="divider"></li>
-                                                <li><a href="#">Separated link</a></li>
-                                                <li class="divider"></li>
-                                                <li><a href="#">One more separated link</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
+                                <li><a href="#">Albey Ruins</a></li>
+                                <li><a href="#">Ainle</a></li>
+                                <li><a href="#">Heide</a></li>
+                                <li><a href="#">Hilder Forest Ruins</a></li>
+                                <li><a href="#">Hoarfrost Depths</a></li>
+                                <li><a href="#">Hoarfrost Hollow</a></li>
+                                <li><a href="#">Niflheim</a></li>
+                                <li><a href="#">Perilous Ruins</a></li>
+                                <li><a href="#">Prairie Entrance</a></li>
+                                <li><a href="#">Ruins of Sanctity</a></li>
+                            </ul>
+                        </li>
+						<li class="dropdown-submenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Rocheste</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Catacombs</a></li>
+                                <li><a href="#">Fomorian Base</a></li>
+                                <li><a href="#">Ortel Castle</a></li>
+                                <li><a href="#">Rocheste Castle Tower</a></li>
+                                <li><a href="#">Sewers</a></li>
+                            </ul>
+                        </li>
+						<li class="dropdown-submenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Malina</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Ship Graveyard</a></li>
+                                <li><a href="#">Twilight Desert</a></li>
+                                <li><a href="#">Misty Summit</a></li>
+                                <li><a href="#">Annwyn</a></li>
+                            </ul>
+                        </li>
+						<li class="dropdown-submenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ben Chenner</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Ben Chenner Entrance</a></li>
+                                <li><a href="#">Ben Chenner Trailhead</a></li>
+                                <li><a href="#">Ben Chenner Slopes</a></li>
+                                <li><a href="#">Ben Chenner Summit</a></li>
+                            </ul>
+                        </li>
+						<li class="dropdown-submenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lochlann</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Lochlann Plains</a></li>
+                            </ul>
+                        </li>
+						<li class="divider"></li>
+						<li class="dropdown-submenu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Fishing Boat</a></li>
+                                <li><a href="#">Resenlian's Labyrinth</a></li>
+                                <li><a href="#">Unknown Area</a></li>
                             </ul>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu 2 <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Character</a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">One more separated link</a></li>
                         <li class="dropdown-submenu">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Female</a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                                <li class="divider"></li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown</a>
-                                    <ul class="dropdown-menu">
-                                        <li class="dropdown-submenu">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown</a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#">Action</a></li>
-                                                <li><a href="#">Another action</a></li>
-                                                <li><a href="#">Something else here</a></li>
-                                                <li class="divider"></li>
-                                                <li><a href="#">Separated link</a></li>
-                                                <li class="divider"></li>
-                                                <li><a href="#">One more separated link</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
+                                <li><a href="#">Fiona</a></li>
+                                <li><a href="#">Evie</a></li>
+                                <li><a href="#">Vella</a></li>
+                                <li><a href="#">Lynn</a></li>
+                                <li><a href="#">Arisha</a></li>
+                                <li><a href="#">Delia</a></li>
+                                <li><a href="#">Miri</a></li>
+                            </ul>
+						</li>
+						<li class="dropdown-submenu">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Male</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Lann</a></li>
+                                <li><a href="#">Karok</a></li>
+                                <li><a href="#">Kai</a></li>
+                                <li><a href="#">Hurk</a></li>
+                                <li><a href="#">Sylas</a></li>
                             </ul>
                         </li>
+						<li class="divider"></li>
+						<li><a href="#">Count Breakdown</a></li>
+                    </ul>
+                </li>
+				<li><a href="#">Quests</a></li>
+				<li><a href="#">Sets</a></li>
+				<li><a href="#">PvP</a></li>
+				<li><a href="#">Misc</a></li>
+				<li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Exclusive</a></li>
+                        <li><a href="#">Removed</a></li>
+                        <li><a href="#">Unreleased</a></li>
+                        <li><a href="#">Event</a></li>
                     </ul>
                 </li>
             </ul>
@@ -124,10 +164,20 @@
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
+          <div class="carousel-item active" style="background-image: url('img/cherry.jpg')">
             <div class="carousel-caption d-none d-md-block">
-              <h3>Featured Title</h3>
-              <p>This is a description for the first slide.</p>
+              <h1 class="display-3">All Titles</h1>
+              <p class="lead">This is a description for the first slide.</p>
+			  <h3>Legend</h3>
+				<table class="table table-striped table-dark">
+					<tbody><tr class="legend_red"><td>Red</td><td>Can no longer be acquired.</td><td>Includes event and soon to be released titles.</td></tr>
+					<tr class="legend_golden"><td>Gold</td><td>Can no longer be acquired and available for only a limited time.</td><td>Includes all Golden Time Event titles.</td></tr>
+					<tr class="legend_eu"><td>Green</td><td>May be obtainable.</td><td>Titles exclusive to the EU servers.</td></tr>
+					<tr class="legend_path"><td>Blue</td><td>Certain versions can be obtained.</td><td>Includes titles exclusive to certain story paths.</td></tr>
+					<tr class="legend_temp"><td>Purple</td><td>Can be obtained.</td><td>Includes temporary titles that are not included in the title count.</td></tr>
+					<tr class="legend_gone"><td>Gray</td><td>Cannot be obtained.</td><td>Removed or unreleased titles.</td></tr>
+					</tbody>
+				</table>
             </div>
           </div>
       </div>
@@ -137,14 +187,7 @@
     <section class="py-5">
       <div class="container">
         <h1>All Titles</h1>
-        <table>
-			<thead>
-				<th><td>Title</td><td>Description</td><td>Obtain</td><td>STR</td><td>WIL</td><td>AGI</td><td>INT</td><td>HP</td></th>
-			</thead>
-			<tbody>
-				<tr><td>@$$ Kicker</td><td>Kobold description.</td><td>Kick Kobold 0/30 times</td><td>STR +2</td><td>WIL +2</td><td>AGI +2</td><td>INT +2</td><td>HP +2</td></tr>
-			</tbody>
-		</table>
+        <div ng-view></div>
       </div>
     </section>
 
