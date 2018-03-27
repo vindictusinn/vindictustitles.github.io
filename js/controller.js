@@ -30,7 +30,17 @@ ItemControllers.controller("ListController", ['$scope','$http',
 					
 					$(document).ready(function() {
 						$('#titles').DataTable({
-							"lengthMenu": [[10, 50, 100, 300, -1], [10, 50, 100, 300, "All"]]
+							"lengthMenu": [[10, 50, 100, 300, -1], [10, 50, 100, 300, "All"]],
+							"columns": [
+								{ "type": "html" },
+								null,
+								null,
+								null,
+								{ "type": "num" },
+								null,
+								null,
+								null
+							  ]
 						});
 					} );
 
