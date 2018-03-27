@@ -83,7 +83,7 @@ h1, .h1, h2, .h2, h3, .h3 {
 	color:#D27676;
 }
 .removed1 {
-	color:#535353;
+	color:#9b9b9b;
 }
 .golden1 {
 	color:#eab064;
@@ -95,7 +95,7 @@ h1, .h1, h2, .h2, h3, .h3 {
 	color:#64d1e4;
 }
 .unreleased1 {
-	color:#535353;
+	color:#9b9b9b;
 }
 .input-group-sm > .input-group-append > select.btn:not([size]):not([multiple]), .input-group-sm > .input-group-append > select.input-group-text:not([size]):not([multiple]), .input-group-sm > .input-group-prepend > select.btn:not([size]):not([multiple]), .input-group-sm > .input-group-prepend > select.input-group-text:not([size]):not([multiple]), .input-group-sm > select.form-control:not([size]):not([multiple]), select.form-control-sm:not([size]):not([multiple]) {
 
