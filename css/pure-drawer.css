@@ -37,7 +37,7 @@ html, body {
   position: absolute;
   top: -9999px; }
   .pure-toggle:focus ~ .pure-toggle-label {
-    border-color: #ccbdad;
+    border-color: #7289da;
     color: #212529; }
 
 .pure-toggle-label {
@@ -60,11 +60,11 @@ html, body {
   -webkit-tap-highlight-color: transparent; 
 left:1rem !important;}
   .pure-toggle-label:hover {
-    border-color: #ccbdad;
-    color: #ccbdad; }
+    border-color: #7289da;
+    color: #7289da; }
     .pure-toggle-label:hover .pure-toggle-icon,
     .pure-toggle-label:hover .pure-toggle-icon:before {
-      background-color: #ccbdad; }
+      background-color: #7289da; }
   .pure-toggle-label:active {
     -webkit-tap-highlight-color: #212529; }
   .pure-toggle-label .pure-toggle-icon,
@@ -112,8 +112,8 @@ font-family: "Font Awesome 5 Brands" !important;
 .pure-toggle[data-toggle='left']:checked ~ .pure-toggle-label[data-toggle-label='left'],
 .pure-toggle[data-toggle='right']:checked ~ .pure-toggle-label[data-toggle-label='right'],
 .pure-toggle[data-toggle='top']:checked ~ .pure-toggle-label[data-toggle-label='top'] {
-  border-color: #ccbdad;
-  color: #ccbdad; }
+  border-color: #7289da;
+  color: #7289da; }
   
 
 /***********
