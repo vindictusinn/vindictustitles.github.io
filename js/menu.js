@@ -8,7 +8,7 @@ InsertMenu = function(){
 '                <span class="icon-bar"></span>'+
 '            </button>'+
 '			<img src="img/icon.png" class="img-fluid icon">'+
-'            <a class="navbar-brand" href="#"> VindictusInn</a>'+
+'            <a class="navbar-brand" href="/"> VindictusInn</a>'+
 '        </div>'+
 '        <div class="collapse navbar-collapse">'+
 '            <ul class="nav navbar-nav navbar-right">'+
