@@ -79,23 +79,30 @@ h1, .h1, h2, .h2, h3, .h3 {
     font-family: Philosopher;
 
 }
-.events1 {
-	color:#D27676;
+.requirements {
+    color: #9fbdad;
+	display:none;
 }
-.removed1 {
-	color:#9b9b9b;
+.events1, .events1 .requirements {
+	color:#D27676 !important;
 }
-.golden1 {
-	color:#eab064;
+.removed1, .removed1 .requirements {
+	color:#9b9b9b !important;
 }
-.eu1 {
-	color:#a4c955;
+.golden1, .golden1 .requirements {
+	color:#eab064 !important;
 }
-.exclusive1 {
-	color:#64d1e4;
+.eu1, .eu1 .requirements {
+	color:#a4c955 !important;
 }
-.unreleased1 {
-	color:#9b9b9b;
+.exclusive1, .exclusive1 .requirements {
+	color:#64d1e4 !important;
+}
+.unreleased1, .unreleased1 .requirements  {
+	color:#9b9b9b !important;
+}
+.pvp1, .pvp1 .requirementsb {
+	color:#947AAD !important;
 }
 .input-group-sm > .input-group-append > select.btn:not([size]):not([multiple]), .input-group-sm > .input-group-append > select.input-group-text:not([size]):not([multiple]), .input-group-sm > .input-group-prepend > select.btn:not([size]):not([multiple]), .input-group-sm > .input-group-prepend > select.input-group-text:not([size]):not([multiple]), .input-group-sm > select.form-control:not([size]):not([multiple]), select.form-control-sm:not([size]):not([multiple]) {
 
@@ -155,4 +162,10 @@ table.dataTable thead .sorting::after, table.dataTable thead .sorting_asc::after
     -webkit-box-shadow: inset 0 1px 1px rgb(52, 58, 64),0 0 8px rgba(167, 167, 167, 0.6);
     box-shadow: inset 0 1px 1px rgb(255, 255, 255),0 0 8px rgba(52, 58, 64, 0.28);
 
+}
+.carousel-item .overlay {
+    background-color: #8686864d;
+    display: block;
+    width: 100%;
+    height: 100%;
 }
