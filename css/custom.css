@@ -174,4 +174,5 @@ table.dataTable thead .sorting::after, table.dataTable thead .sorting_asc::after
     padding: 0.5rem;
     text-align: center;
     color: white;
+	border-top: solid thin #212529;
 }
