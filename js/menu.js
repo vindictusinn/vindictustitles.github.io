@@ -123,4 +123,6 @@ InsertMenu = function(){
 '                </li>'+
 '            </ul>'+
 '        </div><!--/.nav-collapse -->'+
-'    </div>')}
+'    </div>'+
+'<div id="announcement">This site is currently a work in progress.</div>'
+)}

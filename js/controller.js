@@ -46,7 +46,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 					
 					$('.requirements').each(function(){
 						CheckReq = $(this).html()
-						if(CheckReq!=='(All Required)'){$(this).show()}
+						if(CheckReq!=='(All Required)' && CheckReq!=='( Required)'){$(this).show()}
 					})
 					
 					var menu = "js/menu.js";
