@@ -110,7 +110,7 @@ InsertMenu = function(){
 '                </li>'+
 '				<li><a href="/quests">Quests</a></li>'+
 '				<li><a href="/sets">Sets</a></li>'+
-'				<li><a href="#">PvP</a></li>'+
+'				<li><a href="/pvp">PvP</a></li>'+
 '				<li><a href="#">Misc</a></li>'+
 '				<li>'+
 '                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other</a>'+
