@@ -54,18 +54,15 @@ InsertMenu = function(){
 '                            </ul>'+
 '                        </li>'+
 '						<li class="dropdown-submenu">'+
-'                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ben Chenner</a>'+
+'                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Berbhe</a>'+
 '                            <ul class="dropdown-menu">'+
 '                                <li><a href="/ben_chenner_entrance">Ben Chenner Entrance</a></li>'+
 '                                <li><a href="/ben_chenner_trailhead">Ben Chenner Trailhead</a></li>'+
 '                                <li><a href="/ben_chenner_slopes">Ben Chenner Slopes</a></li>'+
 '                                <li><a href="/ben_chenner_summit">Ben Chenner Summit</a></li>'+
-'                            </ul>'+
-'                        </li>'+
-'						<li class="dropdown-submenu">'+
-'                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lochlann</a>'+
-'                            <ul class="dropdown-menu">'+
 '                                <li><a href="/lochlann_plains">Lochlann Plains</a></li>'+
+'                                <li><a href="/downtown_berbhe">Downtown Berbhe</a></li>'+
+'                                <li><a href="/donegal">Donegal</a></li>'+
 '                            </ul>'+
 '                        </li>'+
 '						<li class="divider"></li>'+
@@ -85,23 +82,23 @@ InsertMenu = function(){
 '                        <li class="dropdown-submenu">'+
 '                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Female</a>'+
 '                            <ul class="dropdown-menu">'+
-'                                <li><a href="#">Fiona</a></li>'+
-'                                <li><a href="#">Evie</a></li>'+
-'                                <li><a href="#">Vella</a></li>'+
-'                                <li><a href="#">Lynn</a></li>'+
-'                                <li><a href="#">Arisha</a></li>'+
-'                                <li><a href="#">Delia</a></li>'+
-'                                <li><a href="#">Miri</a></li>'+
+'                                <li><a href="/fiona">Fiona</a></li>'+
+'                                <li><a href="/evie">Evie</a></li>'+
+'                                <li><a href="/vella">Vella</a></li>'+
+'                                <li><a href="/lynn">Lynn</a></li>'+
+'                                <li><a href="/arisha">Arisha</a></li>'+
+'                                <li><a href="/delia">Delia</a></li>'+
+'                                <li><a href="/miri">Miri</a></li>'+
 '                            </ul>'+
 '						</li>'+
 '						<li class="dropdown-submenu">'+
 '							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Male</a>'+
 '                            <ul class="dropdown-menu">'+
-'                                <li><a href="#">Lann</a></li>'+
-'                                <li><a href="#">Karok</a></li>'+
-'                                <li><a href="#">Kai</a></li>'+
-'                                <li><a href="#">Hurk</a></li>'+
-'                                <li><a href="#">Sylas</a></li>'+
+'                                <li><a href="/lann">Lann</a></li>'+
+'                                <li><a href="/karok">Karok</a></li>'+
+'                                <li><a href="/kai">Kai</a></li>'+
+'                                <li><a href="/hurk">Hurk</a></li>'+
+'                                <li><a href="/sylas">Sylas</a></li>'+
 '                            </ul>'+
 '                        </li>'+
 '						<li class="divider"></li>'+

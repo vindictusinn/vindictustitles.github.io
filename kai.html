@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ItemApp">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A list of all of Vindictus' Kai related titles.">
+    <meta name="author" content="">
+
+    <title>Kai Titles &bull; VindictusInn DB</title>
+	
+	<link rel="shortcut icon" href="img/ico.png"/>
+	
+	<link rel="stylesheet" href="css/bootstrap4.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap3.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap4.min.css">
+	
+    <!-- Custom styles for this template -->
+    <link href="css/half-slider.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/pure-drawer.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+	<script type="text/javascript" src="https://raw.githubusercontent.com/HubSpot/tether/master/dist/js/tether.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular.min.js"></script><!--Angular-->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
+
+	<script>filter = '{&#39;Char&#39;:&#39;Kai&#39;}'</script>
+	
+	<script type="text/javascript" src="js/config.js"></script>
+	<script type="text/javascript" src="js/controller.js"></script>
+  </head>
+
+  <body>
+
+	<div class="pure-container" data-effect="pure-effect-slide">
+		<input type="checkbox" id="pure-toggle-right" class="pure-toggle" data-toggle="right">
+		<label class="pure-toggle-label" for="pure-toggle-right" data-toggle-label="right">
+			<span class="pure-toggle-icon"></span>
+		</label>
+
+		<div class="pure-drawer" data-position="right">
+			<iframe src="https://discordapp.com/widget?id=425742897795694592&theme=dark" width="100%" height="100%" allowtransparency="true" frameborder="0"></iframe>
+		</div>
+		<div class="pure-pusher-container">
+			<div class="pure-pusher">
+  
+    <!-- Navigation -->
+     
+<div id="menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
+</div>
+
+
+    <header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active" style="background-image: url('http://i.imgur.com/VlNXm3g.jpg')">
+			<div class="overlay">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="display-3">Kai Titles</h1>
+              <p class="lead">There are x titles.</p>
+			  <h3>Legend</h3>
+				<table class="table table-striped table-dark">
+					<tbody><tr class="legend_red"><td>Red</td><td>Can no longer be acquired.</td><td>Includes event and soon to be released titles.</td></tr>
+					<tr class="legend_golden"><td>Gold</td><td>Can no longer be acquired and available for only a limited time.</td><td>Includes all Golden Time Event titles.</td></tr>
+					<tr class="legend_eu"><td>Green</td><td>May be obtainable.</td><td>Titles exclusive to the EU servers.</td></tr>
+					<tr class="legend_path"><td>Blue</td><td>Certain versions can be obtained.</td><td>Includes titles exclusive to certain story paths.</td></tr>
+					<tr class="legend_temp"><td>Purple</td><td>Can be obtained.</td><td>Includes temporary titles that are not included in the title count.</td></tr>
+					<tr class="legend_gone"><td>Gray</td><td>Cannot be obtained.</td><td>Removed or unreleased titles.</td></tr>
+					</tbody>
+				</table>
+            </div>
+			</div>
+          </div>
+      </div>
+    </header>
+
+    <!-- Page Content -->
+    <section class="py-5">
+      <div class="container">
+        <h1>Kai Titles</h1>
+        <div ng-view></div>
+      </div>
+    </section>
+
+				
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">VindictusInn DB</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+			</div>
+		</div>
+
+
+		<label class="pure-overlay" for="pure-toggle-right" data-overlay="right">
+		</label>
+	</div>
+	
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
+  </body>
+
+</html>
