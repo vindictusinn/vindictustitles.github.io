@@ -22,59 +22,59 @@ InsertMenu = function(){
 '                        <li class="dropdown-submenu">'+
 '                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Colhen</a>'+
 '                            <ul class="dropdown-menu">'+
-'                                <li><a href="#">Albey Ruins</a></li>'+
-'                                <li><a href="#">Ainle</a></li>'+
-'                                <li><a href="#">Heide</a></li>'+
-'                                <li><a href="#">Hilder Forest Ruins</a></li>'+
+'                                <li><a href="/albey_ruins">Albey Ruins</a></li>'+
+'                                <li><a href="/ainle">Ainle</a></li>'+
+'                                <li><a href="/heide">Heide</a></li>'+
+'                                <li><a href="/hilder_forest_ruins">Hilder Forest Ruins</a></li>'+
 '                                <li><a href="#">Hoarfrost Depths</a></li>'+
-'                                <li><a href="#">Hoarfrost Hollow</a></li>'+
-'                                <li><a href="#">Niflheim</a></li>'+
-'                                <li><a href="#">Perilous Ruins</a></li>'+
-'                                <li><a href="#">Prairie Entrance</a></li>'+
-'                                <li><a href="#">Ruins of Sanctity</a></li>'+
+'                                <li><a href="/hoarfrost_hollow">Hoarfrost Hollow</a></li>'+
+'                                <li><a href="/niflheim">Niflheim</a></li>'+
+'                                <li><a href="/perilous_ruins">Perilous Ruins</a></li>'+
+'                                <li><a href="/prairie_entrance">Prairie Entrance</a></li>'+
+'                                <li><a href="/ruins_of_sanctity">Ruins of Sanctity</a></li>'+
 '                            </ul>'+
 '                        </li>'+
 '						<li class="dropdown-submenu">'+
 '                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Rocheste</a>'+
 '                            <ul class="dropdown-menu">'+
-'                                <li><a href="#">Catacombs</a></li>'+
-'                                <li><a href="#">Fomorian Base</a></li>'+
-'                                <li><a href="#">Ortel Castle</a></li>'+
-'                                <li><a href="#">Rocheste Castle Tower</a></li>'+
-'                                <li><a href="#">Sewers</a></li>'+
+'                                <li><a href="/catacombs">Catacombs</a></li>'+
+'                                <li><a href="/fomorian_base">Fomorian Base</a></li>'+
+'                                <li><a href="/ortel_castle">Ortel Castle</a></li>'+
+'                                <li><a href="/rocheste_castle_tower">Rocheste Castle Tower</a></li>'+
+'                                <li><a href="/sewers">Sewers</a></li>'+
 '                            </ul>'+
 '                        </li>'+
 '						<li class="dropdown-submenu">'+
 '                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Malina</a>'+
 '                            <ul class="dropdown-menu">'+
-'                                <li><a href="#">Ship Graveyard</a></li>'+
-'                                <li><a href="#">Twilight Desert</a></li>'+
-'                                <li><a href="#">Misty Summit</a></li>'+
-'                                <li><a href="#">Annwyn</a></li>'+
+'                                <li><a href="/ship_graveyard">Ship Graveyard</a></li>'+
+'                                <li><a href="/twilight_desert">Twilight Desert</a></li>'+
+'                                <li><a href="/misty_summit">Misty Summit</a></li>'+
+'                                <li><a href="/annwyn">Annwyn</a></li>'+
 '                            </ul>'+
 '                        </li>'+
 '						<li class="dropdown-submenu">'+
 '                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ben Chenner</a>'+
 '                            <ul class="dropdown-menu">'+
-'                                <li><a href="#">Ben Chenner Entrance</a></li>'+
-'                                <li><a href="#">Ben Chenner Trailhead</a></li>'+
-'                                <li><a href="#">Ben Chenner Slopes</a></li>'+
-'                                <li><a href="#">Ben Chenner Summit</a></li>'+
+'                                <li><a href="/ben_chenner_entrance">Ben Chenner Entrance</a></li>'+
+'                                <li><a href="/ben_chenner_trailhead">Ben Chenner Trailhead</a></li>'+
+'                                <li><a href="/ben_chenner_slopes">Ben Chenner Slopes</a></li>'+
+'                                <li><a href="/ben_chenner_summit">Ben Chenner Summit</a></li>'+
 '                            </ul>'+
 '                        </li>'+
 '						<li class="dropdown-submenu">'+
 '                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lochlann</a>'+
 '                            <ul class="dropdown-menu">'+
-'                                <li><a href="#">Lochlann Plains</a></li>'+
+'                                <li><a href="/lochlann_plains">Lochlann Plains</a></li>'+
 '                            </ul>'+
 '                        </li>'+
 '						<li class="divider"></li>'+
 '						<li class="dropdown-submenu">'+
 '                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other</a>'+
 '                            <ul class="dropdown-menu">'+
-'                                <li><a href="#">Fishing Boat</a></li>'+
-'                                <li><a href="#">Resenlian\'s Labyrinth</a></li>'+
-'                                <li><a href="#">Unknown Area</a></li>'+
+'                                <li><a href="/fishing_boat">Fishing Boat</a></li>'+
+'                                <li><a href="/resenlians_labyrinth">Resenlian\'s Labyrinth</a></li>'+
+'                                <li><a href="/unknown_area">Unknown Area</a></li>'+
 '                            </ul>'+
 '                        </li>'+
 '                    </ul>'+
