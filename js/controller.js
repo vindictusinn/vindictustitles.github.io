@@ -27,6 +27,14 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						HP = $(this).html()
 						if (HP === 'HP +'){$(this).html('')}
 					})
+					$('.atk').each(function(){
+						ATK = $(this).html()
+						if (ATK === 'ATK +'){$(this).html('')}
+					})
+					$('.matk').each(function(){
+						MATK = $(this).html()
+						if (MATK === 'MATK +'){$(this).html('')}
+					})
 					
 					$(document).ready(function() {
 						$('#titles').DataTable({
