@@ -176,4 +176,27 @@ table.dataTable thead .sorting::after, table.dataTable thead .sorting_asc::after
     color: white;
 	border-top: solid thin #212529;
 }
-
+.str,.wil,.agi,.int,.hp,.atk,.matk {
+display:none;
+}
+.str::before {
+content:'STR +';
+}
+.wil::before {
+content:'WIL +';
+}
+.agi::before {
+content:'AGI +';
+}
+.int::before {
+content:'INT +';
+}
+.hp::before {
+content:'HP +';
+}
+.atk::before {
+content:'ATK +';
+}
+.matk::before {
+content:'MATK +';
+}

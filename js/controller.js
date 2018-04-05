@@ -9,31 +9,31 @@ ItemControllers.controller("ListController", ['$scope','$http',
 				setTimeout(function(){
 					$('.str').each(function(){
 						STR = $(this).html()
-						if (STR === 'STR +'){$(this).html('')}
+						if (STR === ''){$(this).html('').removeClass('str')} else {$(this).show()}
 					})
 					$('.wil').each(function(){
 						WIL = $(this).html()
-						if (WIL === 'WIL +'){$(this).html('')}
+						if (WIL === ''){$(this).html('').removeClass('wil')} else {$(this).show()}
 					})
 					$('.agi').each(function(){
 						AGI = $(this).html()
-						if (AGI === 'AGI +'){$(this).html('')}
+						if (AGI === ''){$(this).html('').removeClass('agi')} else {$(this).show()}
 					})
 					$('.int').each(function(){
 						INT = $(this).html()
-						if (INT === 'INT +'){$(this).html('')}
+						if (INT === ''){$(this).html('').removeClass('int')} else {$(this).show()}
 					})
 					$('.hp').each(function(){
 						HP = $(this).html()
-						if (HP === 'HP +'){$(this).html('')}
+						if (HP === ''){$(this).html('').removeClass('hp')} else {$(this).show()}
 					})
 					$('.atk').each(function(){
 						ATK = $(this).html()
-						if (ATK === 'ATK +'){$(this).html('')}
+						if (ATK === ''){$(this).html('').removeClass('atk')} else {$(this).show()}
 					})
 					$('.matk').each(function(){
 						MATK = $(this).html()
-						if (MATK === 'MATK +'){$(this).html('')}
+						if (MATK === ''){$(this).html('').removeClass('matk')} else {$(this).show()}
 					})
 					
 					$(document).ready(function() {
@@ -45,6 +45,8 @@ ItemControllers.controller("ListController", ['$scope','$http',
 								null,
 								null,
 								{ "type": "num" },
+								null,
+								null,
 								null,
 								null,
 								null
