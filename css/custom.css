@@ -80,7 +80,7 @@ h1, .h1, h2, .h2, h3, .h3 {
 
 }
 .requirements {
-    color: #9fbdad;
+    color: #6e9c84;
 	display:none;
 }
 .events1, .events1 .requirements {
@@ -96,7 +96,7 @@ h1, .h1, h2, .h2, h3, .h3 {
 	color:#a4c955 !important;
 }
 .exclusive1, .exclusive1 .requirements {
-	color:#64d1e4 !important;
+	color:#00c1e3 !important;
 }
 .unreleased1, .unreleased1 .requirements  {
 	color:#9b9b9b !important;
@@ -176,8 +176,13 @@ table.dataTable thead .sorting::after, table.dataTable thead .sorting_asc::after
     color: white;
 	border-top: solid thin #212529;
 }
+th {
+font-size:1.2rem;
+}
 .str,.wil,.agi,.int,.hp,.atk,.matk,.bal,.crit {
 display:none;
+text-align:center;
+font-size:1.2rem;
 }
 .str::before {
 content:'STR +';
@@ -216,4 +221,9 @@ content:'CRIT +';
 .card-title {
     margin-bottom: 0;
     margin-top: 0;
+}
+table.dataTable thead > tr > th.sorting_asc, table.dataTable thead > tr > th.sorting_desc, table.dataTable thead > tr > th.sorting, table.dataTable thead > tr > td.sorting_asc, table.dataTable thead > tr > td.sorting_desc, table.dataTable thead > tr > td.sorting {
+
+    padding-right: 15PX;
+
 }
