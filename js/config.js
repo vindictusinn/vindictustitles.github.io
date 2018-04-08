@@ -10,6 +10,7 @@ ItemApp.config(['$locationProvider', '$routeProvider', function ($locationProvid
 		'</thead>'+
 			'<tbody>'+
 				'<tr ng-repeat="item in ItemVariable | filter : ' + filter + '" class="events{{item.Event}} removed{{item.Removed}} unreleased{{item.Unreleased}} golden{{item.Golden}} exclusive{{item.Exclusive}}  pvp{{item.PvP}}"><td>{{item.Title}}</td><td>{{item.Desc}}</td><td>{{item.Obtain}}<br/><span class="requirements">({{item.Char}} Required)</span></td><td class="str">{{item.STR}}</td><td class="wil">{{item.WILL}}</td><td class="agi">{{item.DEX}}</td><td class="int">{{item.INT}}</td><td class="hp">{{item.HP}}</td><td class="atk">{{item.ATK}}</td><td class="matk">{{item.MATK}}</td><td class="bal">{{item.BAL}}</td><td class="crit">{{item.CRIT}}</td></tr>'+
+				'<tr ng-repeat="item in ItemVariable | filter : ' + filter2 + '" class="events{{item.Event}} removed{{item.Removed}} unreleased{{item.Unreleased}} golden{{item.Golden}} exclusive{{item.Exclusive}}  pvp{{item.PvP}}"><td>{{item.Title}}</td><td>{{item.Desc}}</td><td>{{item.Obtain}}<br/><span class="requirements">({{item.Char}} Required)</span></td><td class="str">{{item.STR}}</td><td class="wil">{{item.WILL}}</td><td class="agi">{{item.DEX}}</td><td class="int">{{item.INT}}</td><td class="hp">{{item.HP}}</td><td class="atk">{{item.ATK}}</td><td class="matk">{{item.MATK}}</td><td class="bal">{{item.BAL}}</td><td class="crit">{{item.CRIT}}</td></tr>'+
 			'</tbody>'+
 		'</table>',
     controller: 'ListController'
