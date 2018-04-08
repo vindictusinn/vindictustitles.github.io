@@ -70,6 +70,7 @@ InsertMenu = function(){
 '                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other</a>'+
 '                            <ul class="dropdown-menu">'+
 '                                <li><a href="/fishing_boat">Fishing Boat</a></li>'+
+'                                <li><a href="/ein_lacher">Ein Lacher</a></li>'+
 '                                <li><a href="/resenlians_labyrinth">Resenlian\'s Labyrinth</a></li>'+
 '                                <li><a href="/unknown_area">Unknown Area</a></li>'+
 '                            </ul>'+
@@ -108,14 +109,14 @@ InsertMenu = function(){
 '				<li><a href="/quests">Quests</a></li>'+
 '				<li><a href="/sets">Sets</a></li>'+
 '				<li><a href="/pvp">PvP</a></li>'+
-'				<li><a href="#">Misc</a></li>'+
+'				<li><a href="/misc">Misc</a></li>'+
 '				<li>'+
 '                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other</a>'+
 '                    <ul class="dropdown-menu">'+
-'                        <li><a href="#">Exclusive</a></li>'+
-'                        <li><a href="#">Removed</a></li>'+
-'                        <li><a href="#">Unreleased</a></li>'+
-'                        <li><a href="#">Event</a></li>'+
+'                        <li><a href="/exclusive">Exclusive</a></li>'+
+'                        <li><a href="/removed">Removed</a></li>'+
+'                        <li><a href="/unreleased">Unreleased</a></li>'+
+'                        <li><a href="/event">Event</a></li>'+
 '                    </ul>'+
 '                </li>'+
 '            </ul>'+
