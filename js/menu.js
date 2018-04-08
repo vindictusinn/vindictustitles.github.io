@@ -69,6 +69,7 @@ InsertMenu = function(){
 '						<li class="dropdown-submenu">'+
 '                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other</a>'+
 '                            <ul class="dropdown-menu">'+
+'                                <li><a href="/index">Alban Festival</a></li>'+
 '                                <li><a href="/fishing_boat">Fishing Boat</a></li>'+
 '                                <li><a href="/ein_lacher">Ein Lacher</a></li>'+
 '                                <li><a href="/resenlians_labyrinth">Resenlian\'s Labyrinth</a></li>'+
