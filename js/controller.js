@@ -57,6 +57,8 @@ ItemControllers.controller("ListController", ['$scope','$http',
 								null,
 								null,
 								null,
+								null,
+								null,
 								null
 							  ]
 						});
