@@ -176,7 +176,7 @@ table.dataTable thead .sorting::after, table.dataTable thead .sorting_asc::after
     color: white;
 	border-top: solid thin #212529;
 }
-.str,.wil,.agi,.int,.hp,.atk,.matk {
+.str,.wil,.agi,.int,.hp,.atk,.matk,.bal,.crit {
 display:none;
 }
 .str::before {
@@ -199,4 +199,10 @@ content:'ATK +';
 }
 .matk::before {
 content:'MATK +';
+}
+.bal::before {
+content:'BAL +';
+}
+.crit::before {
+content:'CRIT +';
 }

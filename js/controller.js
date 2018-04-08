@@ -35,6 +35,14 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						MATK = $(this).html()
 						if (MATK === ''){$(this).html('').removeClass('matk')} else {$(this).show()}
 					})
+					$('.bal').each(function(){
+						BAL = $(this).html()
+						if (BAL === ''){$(this).html('').removeClass('bal')} else {$(this).show()}
+					})
+					$('.crit').each(function(){
+						CRIT = $(this).html()
+						if (CRIT === ''){$(this).html('').removeClass('crit')} else {$(this).show()}
+					})
 					
 					$(document).ready(function() {
 						$('#titles').DataTable({
