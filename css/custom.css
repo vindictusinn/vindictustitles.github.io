@@ -206,3 +206,14 @@ content:'BAL +';
 .crit::before {
 content:'CRIT +';
 }
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    height: 225px;
+    background-position: top center;
+}
+.card-title {
+    margin-bottom: 0;
+    margin-top: 0;
+}
