@@ -105,6 +105,7 @@ InsertMenu = function(){
 '                        </li>'+
 '						<li class="divider"></li>'+
 '						<li><a href="/counter">Count Breakdown</a></li>'+
+'						<li><a href="/titlecolors">Title Color List</a></li>'+
 '                    </ul>'+
 '                </li>'+
 '				<li><a href="/quests">Quests</a></li>'+

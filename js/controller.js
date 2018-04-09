@@ -7,19 +7,6 @@ ItemControllers.controller("ListController", ['$scope','$http',
 				$scope.ItemVariable = data;
 
 				setTimeout(function(){
-					c_total = $('#titles tr').length
-					c_events = $('#titles .events1').length
-					c_removed = $('#titles .removed1').length
-					c_unreleased = $('#titles .unreleased1').length
-					c_golden = $('#titles .golden1').length
-					c_exclusive = $('#titles .exclusive1').length
-					c_pvp = $('#titles .pvp1').length
-					c_eu = $('#titles .eu1').length
-					
-					TotalTitles = c_total - 1 - c_removed - c_unreleased - c_exclusive + 10 - c_pvp - c_eu
-					
-					console.log(c_events + ' Event Titles')
-					console.log(TotalTitles + ' Total Titles')
 					
 					
 					$('.str').each(function(){
@@ -78,6 +65,28 @@ ItemControllers.controller("ListController", ['$scope','$http',
 								null
 							  ]
 						});
+						
+						
+						c_event_even = $('.events1.removed.unreleased.golden.exclusive.pvp.eu.even').length
+						c_event_odd = $('.events1.removed.unreleased.golden.exclusive.pvp.eu.odd').length
+						c_total = $('#titles tr').length
+						c_events = c_event_odd + c_event_even
+						c_removed = $('#titles .removed1').length
+						c_unreleased = $('#titles .unreleased1').length
+						c_golden = $('#titles .golden1').length
+						c_exclusive = $('#titles .exclusive1').length
+						c_pvp = $('#titles .pvp1').length
+						c_eu = $('#titles .eu1').length
+						
+						TotalTitles = c_total - 1 /*Subtract table header*/ - 1 /*Subtract Custom Title*/ - c_removed - c_unreleased - c_exclusive + 10 /*Actually obtainable Exclusive titles*/ - c_pvp - c_eu - 166 /*Total Ein Lacher*/ + 75
+						
+						NormalTitles = TotalTitles - 10 - 75 - c_event_odd - c_event_even
+						
+						console.log(NormalTitles + ' Normal Titles')
+						console.log(c_events + ' Event Titles')
+						console.log(TotalTitles + ' Total Titles')
+					
+					
 					} );
 					
 					$('.requirements').each(function(){
@@ -89,6 +98,8 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							$.getScript( menu, function() {
 								InsertMenu()
 							})
+							
+		
 
 }, 200);
 			}); 
