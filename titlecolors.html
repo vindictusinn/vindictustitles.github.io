@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ItemApp">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A complete list of Vindictus related titles.">
+    <meta name="author" content="">    <meta property="og:image" content="http://vindictusinn.com/images/misc/logosquare.png" />
+
+    <title>Title Colors &bull; VindictusInn DB</title>
+	
+	<link rel="shortcut icon" href="img/ico.png"/>
+	
+	<link rel="stylesheet" href="css/bootstrap4.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap3.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap4.min.css">
+	
+    <!-- Custom styles for this template -->
+    <link href="css/half-slider.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/pure-drawer.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+	<script type="text/javascript" src="https://raw.githubusercontent.com/HubSpot/tether/master/dist/js/tether.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular.min.js"></script><!--Angular-->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
+
+	<script>filter2 = '{}'</script><script>filter = '{}'</script>
+	
+	<script type="text/javascript" src="js/config.js"></script>
+	<script type="text/javascript" src="js/controller.js"></script>
+  </head>
+
+  <body>
+
+	<div class="pure-container" data-effect="pure-effect-slide">
+		<input type="checkbox" id="pure-toggle-right" class="pure-toggle" data-toggle="right">
+		<label class="pure-toggle-label" for="pure-toggle-right" data-toggle-label="right">
+			<span class="pure-toggle-icon"></span>
+		</label>
+
+		<div class="pure-drawer" data-position="right">
+			<iframe src="https://discordapp.com/widget?id=425742897795694592&theme=dark" width="100%" height="100%" allowtransparency="true" frameborder="0"></iframe>
+		</div>
+		<div class="pure-pusher-container">
+			<div class="pure-pusher">
+  
+    <!-- Navigation -->
+     
+<div id="menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
+</div>
+
+
+    <header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active" style="background-image: url('img/cherry.jpg')">
+			<div class="overlay">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="display-3">Title Colors</h1>
+              <p class="lead">This is a list of all character title colors.</p>
+			  <h3>Legend</h3>
+				<table class="table table-striped table-dark">
+					<tbody><tr class="legend_red"><td>Red</td><td>Can no longer be acquired.</td><td>Includes event and soon to be released titles.</td></tr>
+					<tr class="legend_golden"><td>Gold</td><td>Can no longer be acquired and available for only a limited time.</td><td>Includes all Golden Time Event titles.</td></tr>
+					<tr class="legend_eu"><td>Green</td><td>May be obtainable.</td><td>Titles exclusive to the EU servers.</td></tr>
+					<tr class="legend_path"><td>Blue</td><td>Certain versions can be obtained.</td><td>Includes titles exclusive to certain story paths.</td></tr>
+					<tr class="legend_temp"><td>Purple</td><td>Can be obtained.</td><td>Includes temporary titles that are not included in the title count.</td></tr>
+					<tr class="legend_gone"><td>Gray</td><td>Cannot be obtained.</td><td>Removed or unreleased titles.</td></tr>
+					</tbody>
+				</table>
+            </div>
+			</div>
+          </div>
+      </div>
+    </header>
+
+    <!-- Page Content -->
+    <section class="py-5">
+      <div class="container">
+        <h1>Title Colors</h1>
+        <table class="table table-striped table-dark" style="text-align:center;"><tbody><tr><td>0-99 titles</td><td>gray</td><td style="color: #bdbdbd;">R189 G189 B189</td><td style="background-color: #bdbdbd; width: 10%;"></td></tr><tr><td>100-199 titles</td><td>green</td><td style="color: #6df07d;">R109 G240 B125</td><td style="background-color: #6df07d;"></td></tr><tr><td>200-299 titles</td><td>blue</td><td style="color: #6de5f0;">R109 G229 B240</td><td style="background-color: #6de5f0;"></td></tr><tr><td>300-399 titles</td><td>purple</td><td style="color: #9d79f8;">R157 G121 B248</td><td style="background-color: #9d79f8;"></td></tr><tr><td>400-499 titles</td><td>yellow</td><td style="color: #f1e456;">R241 G228 B86</td><td style="background-color: #f1e456;"></td></tr><tr><td>500-599 titles</td><td>red</td><td style="color: #ff4b52;">R255 G75 B82</td><td style="background-color: #ff4b52;"></td></tr><tr><td>600-699 titles</td><td>pink</td><td style="color: #d752ef;">R215 G82 B239</td><td style="background-color: #d752ef;"></td></tr><tr><td>700-799 titles</td><td>sky blue</td><td style="color: #9ccde1;">R156 G205 B225</td><td style="background-color: #9ccde1;"></td></tr><tr><td>800-899 titles</td><td>neon blue</td><td style="color: #50ffc7;">R80 G255 B199</td><td style="background-color: #50ffc7;"></td></tr><tr><td>900-999 titles</td><td>pale yellow</td><td style="color: #fff79d;">R255 G247 B157</td><td style="background-color: #fff79d;"></td></tr><tr><td>1000-1099 titles</td><td>pale orange</td><td style="color: #fea671;">R254 G166 B113</td><td style="background-color: #fea671;"></td></tr><tr><td>1100-1199 titles</td><td>pink</td><td style="color: #ff80b3;">R255 G128 B179</td><td style="background-color: #ff80b3;"></td></tr><tr><td>1200-1299 titles</td><td>hot pink</td><td style="color: #e00079;">R224 G0 B121</td><td style="background-color: #e00079;"></td></tr><tr><td>1300-1399 titles</td><td>yellow green</td><td style="color: #ceff64;">R206 G255 B100</td><td style="background-color: #ceff64;"></td></tr><tr><td>1400-1499 titles</td><td>orange</td><td style="color: #ff8034;">R255 G128 B52</td><td style="background-color: #ff8034;"></td></tr><tr><td>1500-1599 titles</td><td>magenta</td><td style="color: #ff00d2;">R255 G0 B210</td><td style="background-color: #ff00d2;"></td></tr></tbody></table>
+	
+
+	
+      </div>
+    </section>
+
+				
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">VindictusInn DB</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+			</div>
+		</div>
+
+
+		<label class="pure-overlay" for="pure-toggle-right" data-overlay="right">
+		</label>
+	</div>
+	
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
+	
+		<script type="text/javascript">
+	var menu = "js/menu.js";
+							$.getScript( menu, function() {
+								InsertMenu()
+							})
+	</script>
+
+  </body>
+
+</html>
