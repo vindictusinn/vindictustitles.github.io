@@ -49,7 +49,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 					$(document).ready(function() {
 						$('#titles').DataTable({
 							"lengthMenu": [[10, 50, 100, 300, -1], [10, 50, 100, 300, "All"]],
-							iDisplayLength: -1,
+							/*iDisplayLength: -1,*/
 							"columns": [
 								{ "type": "html" },
 								null,
