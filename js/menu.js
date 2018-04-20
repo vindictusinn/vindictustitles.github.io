@@ -63,6 +63,7 @@ InsertMenu = function(){
 '                                <li><a href="/lochlann_plains">Lochlann Plains</a></li>'+
 '                                <li><a href="/downtown_berbhe">Downtown Berbhe</a></li>'+
 '                                <li><a href="/donegal">Donegal</a></li>'+
+'                                <li><a href="/jardin">Jardin</a></li>'+
 '                            </ul>'+
 '                        </li>'+
 '						<li class="divider"></li>'+
