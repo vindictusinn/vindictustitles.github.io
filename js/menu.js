@@ -64,6 +64,7 @@ InsertMenu = function(){
 '                                <li><a href="/downtown_berbhe">Downtown Berbhe</a></li>'+
 '                                <li><a href="/donegal">Donegal</a></li>'+
 '                                <li><a href="/jardin">Jardin</a></li>'+
+'                                <li><a href="/aidan">Aidan</a></li>'+
 '                            </ul>'+
 '                        </li>'+
 '						<li class="divider"></li>'+
