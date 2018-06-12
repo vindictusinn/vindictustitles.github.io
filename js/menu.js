@@ -123,6 +123,7 @@ InsertMenu = function(){
 '                        <li><a href="/event">Event</a></li>'+
 '                    </ul>'+
 '                </li>'+
+'				<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DNU8M7RC83K54">Donate</a></li>'+
 '            </ul>'+
 '        </div><!--/.nav-collapse -->'+
 '    </div>'+
