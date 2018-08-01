@@ -75,10 +75,13 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						if(CheckReq!=='(All Required)' && CheckReq!=='( Required)'){$(this).show()}
 					})
 					
-					c_event_even = $('.events1.removed.unreleased.golden.exclusive.pvp.eu.even').length
+
+						/*c_event_even = $('.events1.removed.unreleased.golden.exclusive.pvp.eu.even').length
 						c_event_odd = $('.events1.removed.unreleased.golden.exclusive.pvp.eu.odd').length
+						*/
+						c_events = $('.events1.removed.unreleased.golden.exclusive.pvp.eu').length
 						c_total = $('#titles tr').length
-						c_events = c_event_odd + c_event_even
+						/*c_events = c_event_odd + c_event_even*/
 						c_removed = $('#titles .removed1').length
 						c_unreleased = $('#titles .unreleased1').length
 						c_golden = $('#titles .golden1').length
