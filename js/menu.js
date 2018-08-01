@@ -126,6 +126,6 @@ InsertMenu = function(){
 '				<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DNU8M7RC83K54">Donate</a></li>'+
 '            </ul>'+
 '        </div><!--/.nav-collapse -->'+
-'    </div>'+
-'<div id="announcement">Find the site useful? Consider <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DNU8M7RC83K54">donating</a> to keep it running. This site will no longer be possible once Sanitee\'s wallet is empty. :c</div>'
+'    </div>'//+
+//'<div id="announcement">Find the site useful? Consider <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DNU8M7RC83K54">donating</a> to keep it running. This site will no longer be possible once Sanitee\'s wallet is empty. :c</div>'
 )}
