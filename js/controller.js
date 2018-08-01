@@ -91,7 +91,7 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						
 						TotalTitles = c_total - 1 /*Subtract table header*/ - 1 /*Subtract Custom Title*/ - c_removed - c_unreleased - c_exclusive + 19 /*Actually obtainable Exclusive titles*/ - c_pvp - c_eu - 166 /*Total Ein Lacher*/ + 75
 						
-						NormalTitles = TotalTitles - 10 - 75 - c_event_odd - c_event_even
+						NormalTitles = TotalTitles - 10 - 75 - /*c_event_odd - c_event_even*/ c_events
 						
 						console.log(NormalTitles + ' Normal Titles')
 						console.log(c_events + ' Event Titles')
