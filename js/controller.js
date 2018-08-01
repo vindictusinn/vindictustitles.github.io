@@ -66,8 +66,16 @@ ItemControllers.controller("ListController", ['$scope','$http',
 							  ]
 						});
 						
-						
-						c_event_even = $('.events1.removed.unreleased.golden.exclusive.pvp.eu.even').length
+					
+					
+					} );
+					
+					$('.requirements').each(function(){
+						CheckReq = $(this).html()
+						if(CheckReq!=='(All Required)' && CheckReq!=='( Required)'){$(this).show()}
+					})
+					
+					c_event_even = $('.events1.removed.unreleased.golden.exclusive.pvp.eu.even').length
 						c_event_odd = $('.events1.removed.unreleased.golden.exclusive.pvp.eu.odd').length
 						c_total = $('#titles tr').length
 						c_events = c_event_odd + c_event_even
@@ -85,14 +93,6 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						console.log(NormalTitles + ' Normal Titles')
 						console.log(c_events + ' Event Titles')
 						console.log(TotalTitles + ' Total Titles')
-					
-					
-					} );
-					
-					$('.requirements').each(function(){
-						CheckReq = $(this).html()
-						if(CheckReq!=='(All Required)' && CheckReq!=='( Required)'){$(this).show()}
-					})
 					
 					var menu = "js/menu.js";
 							$.getScript( menu, function() {
