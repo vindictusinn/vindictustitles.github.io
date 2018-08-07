@@ -227,3 +227,7 @@ table.dataTable thead > tr > th.sorting_asc, table.dataTable thead > tr > th.sor
     padding-right: 15PX;
 
 }
+.account_emblem {
+    padding-left: 0.75rem;
+    vertical-align: middle;
+}
