@@ -46,6 +46,10 @@ ItemControllers.controller("ListController", ['$scope','$http',
 						if (CRIT === ''){$(this).html('').removeClass('crit')} else {$(this).show()}
 					})
 					
+					$('.account-1').each(function(){
+						$(this).append('<img src="/img/account-1.png" class="account_emblem" title="Account Shared">')
+					})
+					
 					$(document).ready(function() {
 						$('#titles').DataTable({
 							"lengthMenu": [[10, 50, 100, 300, -1], [10, 50, 100, 300, "All"]],
