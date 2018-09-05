@@ -26,7 +26,7 @@ InsertMenu = function(){
 '                                <li><a href="/ainle">Ainle</a></li>'+
 '                                <li><a href="/heide">Heide</a></li>'+
 '                                <li><a href="/hilder_forest_ruins">Hilder Forest Ruins</a></li>'+
-'                                <li><a href="#">Hoarfrost Depths</a></li>'+
+'                                <li><a href="/hoarfrost_depths">Hoarfrost Depths</a></li>'+
 '                                <li><a href="/hoarfrost_hollow">Hoarfrost Hollow</a></li>'+
 '                                <li><a href="/niflheim">Niflheim</a></li>'+
 '                                <li><a href="/perilous_ruins">Perilous Ruins</a></li>'+
@@ -47,6 +47,7 @@ InsertMenu = function(){
 '						<li class="dropdown-submenu">'+
 '                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Malina</a>'+
 '                            <ul class="dropdown-menu">'+
+'                                <li><a href="/crescent_moon_island">Crescent Moon Island</a></li>'+
 '                                <li><a href="/ship_graveyard">Ship Graveyard</a></li>'+
 '                                <li><a href="/twilight_desert">Twilight Desert</a></li>'+
 '                                <li><a href="/misty_summit">Misty Summit</a></li>'+
