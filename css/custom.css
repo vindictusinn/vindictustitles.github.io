@@ -12,7 +12,7 @@ margin-right: 1.5rem;
 	border-left:thick solid #eab064;
 }
 .legend_eu {
-	border-left:thick solid #a4c955;
+	border-left:thick solid #86b328;
 }
 .legend_path {
 	border-left:thick solid #8fdfed;
@@ -93,7 +93,7 @@ h1, .h1, h2, .h2, h3, .h3 {
 	color:#eaa43b !important;
 }
 .eu1, .eu1 .requirements {
-	color:#a4c955 !important;
+	color:#86b328 !important;
 }
 .exclusive1, .exclusive1 .requirements {
 	color:#00c1e3 !important;
